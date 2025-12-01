@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería Responsiva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Galería de Imágenes Responsiva</h1>
+
+  <div class="gallery" id="gallery">
+
+    <!-- AMANECER -->
+    <figure class="item">
+      <img
+        src="images/small/amanecer-1x.jpg"
+        srcset="
+          images/small/amanecer-1x.jpg 400w,
+          images/small/amanecer-2x.jpg 800w,
+          images/medium/amanecer-1x.jpg 800w,
+          images/medium/amanecer-2x.jpg 1600w,
+          images/large/amanecer-1x.jpg 1200w,
+          images/large/amanecer-2x.jpg 2400w
+        "
+        sizes="(max-width: 600px) 50vw, (max-width: 900px) 33vw, 25vw"
+        alt="Amanecer luminoso sobre el horizonte">
+      <figcaption>Amanecer</figcaption>
+    </figure>
+
+    <!-- BOSQUE -->
+    <figure class="item">
+      <img
+        src="images/small/bosque-1x.jpg"
+        srcset="
+          images/small/bosque-1x.jpg 400w,
+          images/small/bosque-2x.jpg 800w,
+          images/medium/bosque-1x.jpg 800w,
+          images/medium/bosque-2x.jpg 1600w,
+          images/large/bosque-1x.jpg 1200w,
+          images/large/bosque-2x.jpg 2400w
+        "
+        sizes="(max-width: 600px) 50vw, (max-width: 900px) 33vw, 25vw"
+        alt="Bosque frondoso con luz suave entre los árboles">
+      <figcaption>Bosque</figcaption>
+    </figure>
+
+    <!-- CAMPO -->
+    <figure class="item">
+      <img
+        src="images/small/campo-1x.jpg"
+        srcset="
+          images/small/campo-1x.jpg 400w,
+          images/small/campo-2x.jpg 800w,
+          images/medium/campo-1x.jpg 800w,
+          images/medium/campo-2x.jpg 1600w,
+          images/large/campo-1x.jpg 1200w,
+          images/large/campo-2x.jpg 2400w
+        "
+        sizes="(max-width: 600px) 50vw, (max-width: 900px) 33vw, 25vw"
+        alt="Campo verde bajo un cielo despejado">
+      <figcaption>Campo</figcaption>
+    </figure>
+
+    <!-- CARRETERA -->
+    <figure class="item">
+      <img
+        src="images/small/carretera-1x.jpg"
+        srcset="
+          images/small/carretera-1x.jpg 400w,
+          images/small/carretera-2x.jpg 800w,
+          images/medium/carretera-1x.jpg 800w,
+          images/medium/carretera-2x.jpg 1600w,
+          images/large/carretera-1x.jpg 1200w,
+          images/large/carretera-2x.jpg 2400w
+        "
+        sizes="(max-width: 600px) 50vw, (max-width: 900px) 33vw, 25vw"
+        alt="Carretera que se pierde en la distancia">
+      <figcaption>Carretera</figcaption>
+    </figure>
+
+    <!-- MAR -->
+    <figure class="item">
+      <img
+        src="images/small/mar-1x.jpg"
+        srcset="
+          images/small/mar-1x.jpg 400w,
+          images/small/mar-2x.jpg 800w,
+          images/medium/mar-1x.jpg 800w,
+          images/medium/mar-2x.jpg 1600w,
+          images/large/mar-1x.jpg 1200w,
+          images/large/mar-2x.jpg 2400w
+        "
+        sizes="(max-width: 600px) 50vw, (max-width: 900px) 33vw, 25vw"
+        alt="Mar en calma bajo el sol">
+      <figcaption>Mar</figcaption>
+    </figure>
+
+    <!-- MONTAÑAS -->
+    <figure class="item">
+      <img
+        src="images/small/montañas-1x.jpg"
+        srcset="
+          images/small/montañas-1x.jpg 400w,
+          images/small/montañas-2x.jpg 800w,
+          images/medium/montañas-1x.jpg 800w,
+          images/medium/montañas-2x.jpg 1600w,
+          images/large/montañas-1x.jpg 1200w,
+          images/large/montañas-2x.jpg 2400w
+        "
+        sizes="(max-width: 600px) 50vw, (max-width: 900px) 33vw, 25vw"
+        alt="Montañas elevadas cubiertas por nubes">
+      <figcaption>Montañas</figcaption>
+    </figure>
+
+    <!-- PLAYA -->
+    <figure class="item">
+      <img
+        src="images/small/playa-1x.jpg"
+        srcset="
+          images/small/playa-1x.jpg 400w,
+          images/small/playa-2x.jpg 800w,
+          images/medium/playa-1x.jpg 800w,
+          images/medium/playa-2x.jpg 1600w,
+          images/large/playa-1x.jpg 1200w,
+          images/large/playa-2x.jpg 2400w
+        "
+        sizes="(max-width: 600px) 50vw, (max-width: 900px) 33vw, 25vw"
+        alt="Playa de arena clara con olas suaves">
+      <figcaption>Playa</figcaption>
+    </figure>
+
+    <!-- TRIGO -->
+    <figure class="item">
+      <img
+        src="images/small/trigo-1x.jpg"
+        srcset="
+          images/small/trigo-1x.jpg 400w,
+          images/small/trigo-2x.jpg 800w,
+          images/medium/trigo-1x.jpg 800w,
+          images/medium/trigo-2x.jpg 1600w,
+          images/large/trigo-1x.jpg 1200w,
+          images/large/trigo-2x.jpg 2400w
+        "
+        sizes="(max-width: 600px) 50vw, (max-width: 900px) 33vw, 25vw"
+        alt="Campo de trigo dorado movido por el viento">
+      <figcaption>Trigo</figcaption>
+    </figure>
+
+  </div>
+
+  <!-- MODAL -->
+  <div id="modal" class="modal">
+    <span id="close">&times;</span>
+    <img id="modal-img" alt="">
+    <p id="modal-text"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
