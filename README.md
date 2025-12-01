@@ -31,16 +31,16 @@ Las imágenes están optimizadas mediante **srcset**, **tamaños adaptativos** y
 ---
 
 ## 📂 Estructura del proyecto  
-P4.2_gallery/
-│── index.html
-│── style.css
-│── script.js
-│── images/
-│ ├── small/
-│ ├── medium/
-│ └── large/
-└── assets/
-└── background.jpg
+P4.2_gallery/  
+│── index.html  
+│── style.css  
+│── script.js  
+│── images/  
+│ ├── small/  
+│ ├── medium/  
+│ └── large/  
+└── assets/  
+└── background.jpg  
 
 
 ---
